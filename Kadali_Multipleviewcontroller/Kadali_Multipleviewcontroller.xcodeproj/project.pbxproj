@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2B1C4229DBE0B10061F787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C4129DBE0B10061F787 /* AppDelegate.swift */; };
+		BC2B1C4429DBE0B10061F787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C4329DBE0B10061F787 /* SceneDelegate.swift */; };
+		BC2B1C4629DBE0B10061F787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C4529DBE0B10061F787 /* ViewController.swift */; };
+		BC2B1C4929DBE0B10061F787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2B1C4729DBE0B10061F787 /* Main.storyboard */; };
+		BC2B1C4B29DBE0B70061F787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2B1C4A29DBE0B70061F787 /* Assets.xcassets */; };
+		BC2B1C4E29DBE0B70061F787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2B1C4C29DBE0B70061F787 /* LaunchScreen.storyboard */; };
+		BC2B1C5929DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C5829DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.swift */; };
+		BC2B1C6329DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C6229DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.swift */; };
+		BC2B1C6529DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C6429DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITestsLaunchTests.swift */; };
+		BC2B1C7229DBE46C0061F787 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2B1C7129DBE46C0061F787 /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2B1C5529DBE0B80061F787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2B1C3629DBE0B10061F787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2B1C3D29DBE0B10061F787;
+			remoteInfo = Kadali_Multipleviewcontroller;
+		};
+		BC2B1C5F29DBE0B80061F787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2B1C3629DBE0B10061F787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2B1C3D29DBE0B10061F787;
+			remoteInfo = Kadali_Multipleviewcontroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2B1C3E29DBE0B10061F787 /* Kadali_Multipleviewcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadali_Multipleviewcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B1C4129DBE0B10061F787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC2B1C4329DBE0B10061F787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC2B1C4529DBE0B10061F787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC2B1C4829DBE0B10061F787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2B1C4A29DBE0B70061F787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2B1C4D29DBE0B70061F787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2B1C4F29DBE0B70061F787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2B1C5429DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadali_MultipleviewcontrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B1C5829DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_MultipleviewcontrollerTests.swift; sourceTree = "<group>"; };
+		BC2B1C5E29DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadali_MultipleviewcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B1C6229DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_MultipleviewcontrollerUITests.swift; sourceTree = "<group>"; };
+		BC2B1C6429DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_MultipleviewcontrollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC2B1C7129DBE46C0061F787 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2B1C3B29DBE0B10061F787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5129DBE0B80061F787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5B29DBE0B80061F787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2B1C3529DBE0B10061F787 = {
+			isa = PBXGroup;
+			children = (
+				BC2B1C4029DBE0B10061F787 /* Kadali_Multipleviewcontroller */,
+				BC2B1C5729DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests */,
+				BC2B1C6129DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests */,
+				BC2B1C3F29DBE0B10061F787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2B1C3F29DBE0B10061F787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B1C3E29DBE0B10061F787 /* Kadali_Multipleviewcontroller.app */,
+				BC2B1C5429DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.xctest */,
+				BC2B1C5E29DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2B1C4029DBE0B10061F787 /* Kadali_Multipleviewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B1C4129DBE0B10061F787 /* AppDelegate.swift */,
+				BC2B1C4329DBE0B10061F787 /* SceneDelegate.swift */,
+				BC2B1C4529DBE0B10061F787 /* ViewController.swift */,
+				BC2B1C4729DBE0B10061F787 /* Main.storyboard */,
+				BC2B1C4A29DBE0B70061F787 /* Assets.xcassets */,
+				BC2B1C4C29DBE0B70061F787 /* LaunchScreen.storyboard */,
+				BC2B1C4F29DBE0B70061F787 /* Info.plist */,
+				BC2B1C7129DBE46C0061F787 /* ResultViewController.swift */,
+			);
+			path = Kadali_Multipleviewcontroller;
+			sourceTree = "<group>";
+		};
+		BC2B1C5729DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B1C5829DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.swift */,
+			);
+			path = Kadali_MultipleviewcontrollerTests;
+			sourceTree = "<group>";
+		};
+		BC2B1C6129DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B1C6229DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.swift */,
+				BC2B1C6429DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITestsLaunchTests.swift */,
+			);
+			path = Kadali_MultipleviewcontrollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2B1C3D29DBE0B10061F787 /* Kadali_Multipleviewcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2B1C6829DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_Multipleviewcontroller" */;
+			buildPhases = (
+				BC2B1C3A29DBE0B10061F787 /* Sources */,
+				BC2B1C3B29DBE0B10061F787 /* Frameworks */,
+				BC2B1C3C29DBE0B10061F787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kadali_Multipleviewcontroller;
+			productName = Kadali_Multipleviewcontroller;
+			productReference = BC2B1C3E29DBE0B10061F787 /* Kadali_Multipleviewcontroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2B1C5329DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2B1C6B29DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_MultipleviewcontrollerTests" */;
+			buildPhases = (
+				BC2B1C5029DBE0B80061F787 /* Sources */,
+				BC2B1C5129DBE0B80061F787 /* Frameworks */,
+				BC2B1C5229DBE0B80061F787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2B1C5629DBE0B80061F787 /* PBXTargetDependency */,
+			);
+			name = Kadali_MultipleviewcontrollerTests;
+			productName = Kadali_MultipleviewcontrollerTests;
+			productReference = BC2B1C5429DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2B1C5D29DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2B1C6E29DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_MultipleviewcontrollerUITests" */;
+			buildPhases = (
+				BC2B1C5A29DBE0B80061F787 /* Sources */,
+				BC2B1C5B29DBE0B80061F787 /* Frameworks */,
+				BC2B1C5C29DBE0B80061F787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2B1C6029DBE0B80061F787 /* PBXTargetDependency */,
+			);
+			name = Kadali_MultipleviewcontrollerUITests;
+			productName = Kadali_MultipleviewcontrollerUITests;
+			productReference = BC2B1C5E29DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2B1C3629DBE0B10061F787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BC2B1C3D29DBE0B10061F787 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BC2B1C5329DBE0B80061F787 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC2B1C3D29DBE0B10061F787;
+					};
+					BC2B1C5D29DBE0B80061F787 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC2B1C3D29DBE0B10061F787;
+					};
+				};
+			};
+			buildConfigurationList = BC2B1C3929DBE0B10061F787 /* Build configuration list for PBXProject "Kadali_Multipleviewcontroller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2B1C3529DBE0B10061F787;
+			productRefGroup = BC2B1C3F29DBE0B10061F787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2B1C3D29DBE0B10061F787 /* Kadali_Multipleviewcontroller */,
+				BC2B1C5329DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests */,
+				BC2B1C5D29DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2B1C3C29DBE0B10061F787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B1C4E29DBE0B70061F787 /* LaunchScreen.storyboard in Resources */,
+				BC2B1C4B29DBE0B70061F787 /* Assets.xcassets in Resources */,
+				BC2B1C4929DBE0B10061F787 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5229DBE0B80061F787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5C29DBE0B80061F787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2B1C3A29DBE0B10061F787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B1C4629DBE0B10061F787 /* ViewController.swift in Sources */,
+				BC2B1C4229DBE0B10061F787 /* AppDelegate.swift in Sources */,
+				BC2B1C4429DBE0B10061F787 /* SceneDelegate.swift in Sources */,
+				BC2B1C7229DBE46C0061F787 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5029DBE0B80061F787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B1C5929DBE0B80061F787 /* Kadali_MultipleviewcontrollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2B1C5A29DBE0B80061F787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B1C6329DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITests.swift in Sources */,
+				BC2B1C6529DBE0B80061F787 /* Kadali_MultipleviewcontrollerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2B1C5629DBE0B80061F787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2B1C3D29DBE0B10061F787 /* Kadali_Multipleviewcontroller */;
+			targetProxy = BC2B1C5529DBE0B80061F787 /* PBXContainerItemProxy */;
+		};
+		BC2B1C6029DBE0B80061F787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2B1C3D29DBE0B10061F787 /* Kadali_Multipleviewcontroller */;
+			targetProxy = BC2B1C5F29DBE0B80061F787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2B1C4729DBE0B10061F787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2B1C4829DBE0B10061F787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2B1C4C29DBE0B70061F787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2B1C4D29DBE0B70061F787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2B1C6629DBE0B80061F787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2B1C6729DBE0B80061F787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2B1C6929DBE0B80061F787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kadali_Multipleviewcontroller/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kadali_Multipleviewcontroller;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-Multipleviewcontroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2B1C6A29DBE0B80061F787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kadali_Multipleviewcontroller/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kadali_Multipleviewcontroller;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-Multipleviewcontroller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC2B1C6C29DBE0B80061F787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-MultipleviewcontrollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadali_Multipleviewcontroller.app/Kadali_Multipleviewcontroller";
+			};
+			name = Debug;
+		};
+		BC2B1C6D29DBE0B80061F787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-MultipleviewcontrollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadali_Multipleviewcontroller.app/Kadali_Multipleviewcontroller";
+			};
+			name = Release;
+		};
+		BC2B1C6F29DBE0B80061F787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-MultipleviewcontrollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadali_Multipleviewcontroller;
+			};
+			name = Debug;
+		};
+		BC2B1C7029DBE0B80061F787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-MultipleviewcontrollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadali_Multipleviewcontroller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2B1C3929DBE0B10061F787 /* Build configuration list for PBXProject "Kadali_Multipleviewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2B1C6629DBE0B80061F787 /* Debug */,
+				BC2B1C6729DBE0B80061F787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2B1C6829DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_Multipleviewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2B1C6929DBE0B80061F787 /* Debug */,
+				BC2B1C6A29DBE0B80061F787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2B1C6B29DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_MultipleviewcontrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2B1C6C29DBE0B80061F787 /* Debug */,
+				BC2B1C6D29DBE0B80061F787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2B1C6E29DBE0B80061F787 /* Build configuration list for PBXNativeTarget "Kadali_MultipleviewcontrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2B1C6F29DBE0B80061F787 /* Debug */,
+				BC2B1C7029DBE0B80061F787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2B1C3629DBE0B10061F787 /* Project object */;
+}
