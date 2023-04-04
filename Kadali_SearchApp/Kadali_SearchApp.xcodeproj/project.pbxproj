@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3CFA2129CBC0B1008EA276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA2029CBC0B1008EA276 /* AppDelegate.swift */; };
+		BC3CFA2329CBC0B1008EA276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA2229CBC0B1008EA276 /* SceneDelegate.swift */; };
+		BC3CFA2529CBC0B1008EA276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA2429CBC0B1008EA276 /* ViewController.swift */; };
+		BC3CFA2829CBC0B1008EA276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3CFA2629CBC0B1008EA276 /* Main.storyboard */; };
+		BC3CFA2A29CBC0B5008EA276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3CFA2929CBC0B5008EA276 /* Assets.xcassets */; };
+		BC3CFA2D29CBC0B5008EA276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3CFA2B29CBC0B5008EA276 /* LaunchScreen.storyboard */; };
+		BC3CFA3829CBC0B5008EA276 /* Kadali_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA3729CBC0B5008EA276 /* Kadali_SearchAppTests.swift */; };
+		BC3CFA4229CBC0B6008EA276 /* Kadali_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA4129CBC0B6008EA276 /* Kadali_SearchAppUITests.swift */; };
+		BC3CFA4429CBC0B6008EA276 /* Kadali_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3CFA4329CBC0B6008EA276 /* Kadali_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3CFA3429CBC0B5008EA276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3CFA1529CBC0B1008EA276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3CFA1C29CBC0B1008EA276;
+			remoteInfo = Kadali_SearchApp;
+		};
+		BC3CFA3E29CBC0B6008EA276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3CFA1529CBC0B1008EA276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3CFA1C29CBC0B1008EA276;
+			remoteInfo = Kadali_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3CFA1D29CBC0B1008EA276 /* Kadali_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadali_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3CFA2029CBC0B1008EA276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC3CFA2229CBC0B1008EA276 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC3CFA2429CBC0B1008EA276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC3CFA2729CBC0B1008EA276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3CFA2929CBC0B5008EA276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3CFA2C29CBC0B5008EA276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3CFA2E29CBC0B5008EA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3CFA3329CBC0B5008EA276 /* Kadali_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadali_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3CFA3729CBC0B5008EA276 /* Kadali_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_SearchAppTests.swift; sourceTree = "<group>"; };
+		BC3CFA3D29CBC0B6008EA276 /* Kadali_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadali_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3CFA4129CBC0B6008EA276 /* Kadali_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_SearchAppUITests.swift; sourceTree = "<group>"; };
+		BC3CFA4329CBC0B6008EA276 /* Kadali_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadali_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3CFA1A29CBC0B1008EA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA3029CBC0B5008EA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA3A29CBC0B6008EA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3CFA1429CBC0B1008EA276 = {
+			isa = PBXGroup;
+			children = (
+				BC3CFA1F29CBC0B1008EA276 /* Kadali_SearchApp */,
+				BC3CFA3629CBC0B5008EA276 /* Kadali_SearchAppTests */,
+				BC3CFA4029CBC0B6008EA276 /* Kadali_SearchAppUITests */,
+				BC3CFA1E29CBC0B1008EA276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CFA1E29CBC0B1008EA276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CFA1D29CBC0B1008EA276 /* Kadali_SearchApp.app */,
+				BC3CFA3329CBC0B5008EA276 /* Kadali_SearchAppTests.xctest */,
+				BC3CFA3D29CBC0B6008EA276 /* Kadali_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CFA1F29CBC0B1008EA276 /* Kadali_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CFA2029CBC0B1008EA276 /* AppDelegate.swift */,
+				BC3CFA2229CBC0B1008EA276 /* SceneDelegate.swift */,
+				BC3CFA2429CBC0B1008EA276 /* ViewController.swift */,
+				BC3CFA2629CBC0B1008EA276 /* Main.storyboard */,
+				BC3CFA2929CBC0B5008EA276 /* Assets.xcassets */,
+				BC3CFA2B29CBC0B5008EA276 /* LaunchScreen.storyboard */,
+				BC3CFA2E29CBC0B5008EA276 /* Info.plist */,
+			);
+			path = Kadali_SearchApp;
+			sourceTree = "<group>";
+		};
+		BC3CFA3629CBC0B5008EA276 /* Kadali_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CFA3729CBC0B5008EA276 /* Kadali_SearchAppTests.swift */,
+			);
+			path = Kadali_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		BC3CFA4029CBC0B6008EA276 /* Kadali_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3CFA4129CBC0B6008EA276 /* Kadali_SearchAppUITests.swift */,
+				BC3CFA4329CBC0B6008EA276 /* Kadali_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Kadali_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3CFA1C29CBC0B1008EA276 /* Kadali_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3CFA4729CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchApp" */;
+			buildPhases = (
+				BC3CFA1929CBC0B1008EA276 /* Sources */,
+				BC3CFA1A29CBC0B1008EA276 /* Frameworks */,
+				BC3CFA1B29CBC0B1008EA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kadali_SearchApp;
+			productName = Kadali_SearchApp;
+			productReference = BC3CFA1D29CBC0B1008EA276 /* Kadali_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3CFA3229CBC0B5008EA276 /* Kadali_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3CFA4A29CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchAppTests" */;
+			buildPhases = (
+				BC3CFA2F29CBC0B5008EA276 /* Sources */,
+				BC3CFA3029CBC0B5008EA276 /* Frameworks */,
+				BC3CFA3129CBC0B5008EA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3CFA3529CBC0B5008EA276 /* PBXTargetDependency */,
+			);
+			name = Kadali_SearchAppTests;
+			productName = Kadali_SearchAppTests;
+			productReference = BC3CFA3329CBC0B5008EA276 /* Kadali_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC3CFA3C29CBC0B6008EA276 /* Kadali_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3CFA4D29CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchAppUITests" */;
+			buildPhases = (
+				BC3CFA3929CBC0B6008EA276 /* Sources */,
+				BC3CFA3A29CBC0B6008EA276 /* Frameworks */,
+				BC3CFA3B29CBC0B6008EA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3CFA3F29CBC0B6008EA276 /* PBXTargetDependency */,
+			);
+			name = Kadali_SearchAppUITests;
+			productName = Kadali_SearchAppUITests;
+			productReference = BC3CFA3D29CBC0B6008EA276 /* Kadali_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3CFA1529CBC0B1008EA276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BC3CFA1C29CBC0B1008EA276 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BC3CFA3229CBC0B5008EA276 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC3CFA1C29CBC0B1008EA276;
+					};
+					BC3CFA3C29CBC0B6008EA276 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BC3CFA1C29CBC0B1008EA276;
+					};
+				};
+			};
+			buildConfigurationList = BC3CFA1829CBC0B1008EA276 /* Build configuration list for PBXProject "Kadali_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3CFA1429CBC0B1008EA276;
+			productRefGroup = BC3CFA1E29CBC0B1008EA276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3CFA1C29CBC0B1008EA276 /* Kadali_SearchApp */,
+				BC3CFA3229CBC0B5008EA276 /* Kadali_SearchAppTests */,
+				BC3CFA3C29CBC0B6008EA276 /* Kadali_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3CFA1B29CBC0B1008EA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3CFA2D29CBC0B5008EA276 /* LaunchScreen.storyboard in Resources */,
+				BC3CFA2A29CBC0B5008EA276 /* Assets.xcassets in Resources */,
+				BC3CFA2829CBC0B1008EA276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA3129CBC0B5008EA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA3B29CBC0B6008EA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3CFA1929CBC0B1008EA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3CFA2529CBC0B1008EA276 /* ViewController.swift in Sources */,
+				BC3CFA2129CBC0B1008EA276 /* AppDelegate.swift in Sources */,
+				BC3CFA2329CBC0B1008EA276 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA2F29CBC0B5008EA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3CFA3829CBC0B5008EA276 /* Kadali_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3CFA3929CBC0B6008EA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3CFA4429CBC0B6008EA276 /* Kadali_SearchAppUITestsLaunchTests.swift in Sources */,
+				BC3CFA4229CBC0B6008EA276 /* Kadali_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3CFA3529CBC0B5008EA276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3CFA1C29CBC0B1008EA276 /* Kadali_SearchApp */;
+			targetProxy = BC3CFA3429CBC0B5008EA276 /* PBXContainerItemProxy */;
+		};
+		BC3CFA3F29CBC0B6008EA276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3CFA1C29CBC0B1008EA276 /* Kadali_SearchApp */;
+			targetProxy = BC3CFA3E29CBC0B6008EA276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3CFA2629CBC0B1008EA276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3CFA2729CBC0B1008EA276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3CFA2B29CBC0B5008EA276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3CFA2C29CBC0B5008EA276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3CFA4529CBC0B6008EA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC3CFA4629CBC0B6008EA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3CFA4829CBC0B6008EA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kadali_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kadali_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC3CFA4929CBC0B6008EA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kadali_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kadali_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC3CFA4B29CBC0B6008EA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadali_SearchApp.app/Kadali_SearchApp";
+			};
+			name = Debug;
+		};
+		BC3CFA4C29CBC0B6008EA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadali_SearchApp.app/Kadali_SearchApp";
+			};
+			name = Release;
+		};
+		BC3CFA4E29CBC0B6008EA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadali_SearchApp;
+			};
+			name = Debug;
+		};
+		BC3CFA4F29CBC0B6008EA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissour.edu.Kadali-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadali_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3CFA1829CBC0B1008EA276 /* Build configuration list for PBXProject "Kadali_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3CFA4529CBC0B6008EA276 /* Debug */,
+				BC3CFA4629CBC0B6008EA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3CFA4729CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3CFA4829CBC0B6008EA276 /* Debug */,
+				BC3CFA4929CBC0B6008EA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3CFA4A29CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3CFA4B29CBC0B6008EA276 /* Debug */,
+				BC3CFA4C29CBC0B6008EA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3CFA4D29CBC0B6008EA276 /* Build configuration list for PBXNativeTarget "Kadali_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3CFA4E29CBC0B6008EA276 /* Debug */,
+				BC3CFA4F29CBC0B6008EA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3CFA1529CBC0B1008EA276 /* Project object */;
+}
